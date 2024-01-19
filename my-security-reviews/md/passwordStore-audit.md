@@ -11,7 +11,7 @@ header-includes:
     \centering
     \begin{figure}[h]
         \centering
-        \includegraphics[width=0.5\textwidth]{logo.pdf} 
+        \includegraphics[width=0.5\textwidth]{logo.pdf}
     \end{figure}
     \vspace*{2cm}
     {\Huge\bfseries Protocol Audit Report\par}
@@ -28,7 +28,7 @@ header-includes:
 <!-- Your report starts here! -->
 
 Prepared by: [Roqbell](https://github.com/milk-maid)
-Lead Security Researchers: 
+Lead Security Researchers:
 - xxxxxxx
 
 # Table of Contents
@@ -201,7 +201,7 @@ myPassword
         assertEq(actualPassword, expectedPassword);
     }
 ```
-    
+
 </details>
 
 **Recommended Mitigation:** Add an access control conditional to the `setPassword` function
